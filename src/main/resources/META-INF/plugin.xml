@@ -1,0 +1,42 @@
+<idea-plugin>
+  <id>dazdwc.github.CopyReference4Pytest</id>
+
+  <!-- Public plugin name should be written in Title Case -->
+  <name>Copy Reference 4 Pytest</name>
+
+  <!-- Vendor info: update with your actual details -->
+  <vendor email="dani.tu9@gmail.com" url="https://github.com/Dazdwc">Daniel Zafra</vendor>
+
+  <!-- Plugin description -->
+  <description><![CDATA[
+  <strong>Descripción en español:</strong><br>
+  Este plugin permite copiar rutas de pruebas en formato dotted-path para ejecutarlas fácilmente con Pytest.<br><br>
+
+  <strong>Description in English:</strong><br>
+  This plugin allows you to copy dotted-path test references and run them easily with Pytest.<br>
+  <em>Useful for test-driven development workflows.</em>
+  Para más información en español, visita:
+<a href="https://github.com/dazdwc/CopyReference4Pytest/blob/main/README.es.md">README en español</a>
+]]>
+  </description>
+
+  <!-- Required platform modules -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <!-- Define extension points here -->
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- e.g., <applicationService serviceImplementation="your.package.ServiceImpl"/> -->
+  </extensions>
+  <actions>
+    <action id="CopyReference4Pytest"
+            class="io.github.dazdwc.copyreference4pytest.CopyReference4PytestAction"
+            text="Copiar referencia Pytest"
+            description="Copia la ruta dotted compatible con Pytest"
+            popup="true">
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+
+  <!-- Optionally, add actions, listeners, etc. -->
+</idea-plugin>

@@ -1,0 +1,12 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <!-- Icono de copiar -->
+    <rect x="10" y="10" width="35" height="35" rx="5" fill="#2D2D2D"/>
+    <rect x="18" y="18" width="35" height="35" rx="5" fill="#4A4A4A"/>
+    <!-- Parte superior estilo Python -->
+    <path d="M60 20h25a10 10 0 0 1 10 10v10H65v5a5 5 0 0 0 5 5h25v10a10 10 0 0 1-10 10H60a10 10 0 0 1-10-10V30a10 10 0 0 1 10-10z" fill="#306998"/>
+    <circle cx="78" cy="28" r="3" fill="#FFFFFF"/>
+
+    <!-- Parte inferior estilo Python -->
+    <path d="M23 100H35a10 10 0 0 1-10-10V80h32v-5a5 5 0 0 0-6-5H25V60a10 10 0 0 1 10-10h22a10 10 0 0 1 10 10v30a10 10 0 0 1-10 10z" fill="#FFD43B"/>
+    <circle cx="43" cy="92" r="3" fill="#FFFFFF"/>
+</svg>
