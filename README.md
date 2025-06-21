@@ -46,20 +46,19 @@ Este plugin hace la conversión automáticamente, ahorrándote tiempo y errores 
 ### 📖 Uso
 
 1. **Selecciona** cualquier elemento en tu código Python (función, clase, archivo)
-2. **Usa la acción original** "Copy Reference" (Ctrl+Alt+Shift+C)
-3. **Ejecuta** "Copy Reference for Pytest" desde:
+2. **Ejecuta** "Copy Reference for Pytest" desde:
    - El menú contextual (clic derecho)
-   - El menú `Tools`
    - Asigna un atajo de teclado personalizado
-4. **¡Listo!** La referencia convertida está en tu portapapeles, lista para usar con pytest
+3. **¡Listo!** La referencia convertida está en tu portapapeles, lista para usar con pytest
 
 ### 📝 Ejemplos de conversión
 
-| Entrada (PyCharm Reference) | Salida (Pytest Format) |
-|------------------------------|-------------------------|
+| Entrada (PyCharm Reference)           | Salida (Pytest Format) |
+|---------------------------------------|-------------------------|
 | `tests.test_auth.TestAuth.test_login` | `tests/test_auth.py::TestAuth::test_login` |
-| `src.models.User.validate` | `src/models.py::User::validate` |
-| `tests/test_database.py` | `tests/test_database.py` |
+| `src.models.User.validate`            | `src/models.py::User::validate` |
+| `tests/test_database.py`              | `tests/test_database.py` |
+| `tests/test_database.py:14`           | `tests/test_database.py` |
 
 ### 🔧 Desarrollo
 
@@ -143,12 +142,10 @@ This plugin does the conversion automatically, saving you time and manual errors
 ### 📖 Usage
 
 1. **Select** any element in your Python code (function, class, file)
-2. **Use the original action** "Copy Reference" (Ctrl+Alt+Shift+C)
-3. **Execute** "Copy Reference for Pytest" from:
+2. **Execute** "Copy Reference for Pytest" from:
    - Context menu (right-click)
-   - `Tools` menu
    - Assign a custom keyboard shortcut
-4. **Done!** The converted reference is in your clipboard, ready to use with pytest
+3. **Done!** The converted reference is in your clipboard, ready to use with pytest
 
 ### 📝 Conversion examples
 
@@ -157,6 +154,7 @@ This plugin does the conversion automatically, saving you time and manual errors
 | `tests.test_auth.TestAuth.test_login` | `tests/test_auth.py::TestAuth::test_login` |
 | `src.models.User.validate` | `src/models.py::User::validate` |
 | `tests/test_database.py` | `tests/test_database.py` |
+| `tests/test_database.py:14`           | `tests/test_database.py` |
 
 ### 🔧 Development
 
