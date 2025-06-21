@@ -48,23 +48,44 @@ public class PytestPathFormatter {
         List<String> parts = Arrays.asList(path.split("\\."));
         int indexOfClass = obtainLastUppercaseIndex(path);
         StringBuilder finalPath = new StringBuilder();
-        for (int i = 0; i < parts.size(); i++) {
-            String part = parts.get(i);
-            if (i==(indexOfClass -1) && !part.endsWith(".py")) {
-                part = part + ".py" ;
-            }if (i >= indexOfClass) {
-                part = "::" + part;
-            }else if (i > 0) {
-                part = "/" + part;
-            }
-            finalPath.append(part);
-        }
 
+        // Para funciones sin clases
+        if (indexOfClass == -1) {
+            for (int i = 0; i < parts.size(); i++) {
+                String part = parts.get(i);
+
+                if (i > 0 && i != parts.size() -1) {
+                    finalPath.append("/");
+                }
+
+                if (i == parts.size() - 2) {
+                    finalPath.append(part).append(".py::");
+                } else {
+                    finalPath.append(part);
+                }
+            }
+        }else {
+            // Para funciones con clase
+            for (int i = 0; i < parts.size(); i++) {
+                String part = parts.get(i);
+
+                if (i==(indexOfClass -1) && !part.endsWith(".py")) {
+                    part = part + ".py" ;
+
+                }if (i >= indexOfClass) {
+                    part = "::" + part;
+
+                }else if (i > 0) {
+                    part = "/" + part;
+                }
+                finalPath.append(part);
+            }
+        }
         return String.valueOf(finalPath);
     }
 
     public static String formatFileDirtyPath(String path) {
-        return "isDirty";
-
+        List<String> parts = Arrays.asList(path.split(":"));
+        return parts.get(0);
     }
 }
