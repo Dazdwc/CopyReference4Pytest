@@ -40,8 +40,7 @@ public class PytestPathFormatter {
     }
 
     private static String formatFilePath(String path) {
-        // lógica para archivos (convertir dots a slashes, añadir .py si falta)
-        return "File";
+        return path;
     }
 
     private static String formatReferencePath(String path) {
