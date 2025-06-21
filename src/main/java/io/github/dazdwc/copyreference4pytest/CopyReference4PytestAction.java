@@ -3,7 +3,9 @@ package io.github.dazdwc.copyreference4pytest;
 import com.intellij.openapi.actionSystem.ActionManager;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.ide.CopyPasteManager;
-import io.github.dazdwc.copyreference4pytest.utils.PythonReferenceTranslator;
+import io.github.dazdwc.copyreference4pytest.utils.CopiedPathAnalyzer;
+import io.github.dazdwc.copyreference4pytest.utils.PytestPathFormatter;
+
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.StringSelection;
 
@@ -27,8 +29,10 @@ public class CopyReference4PytestAction extends AnAction {
             String clipboardContent = copyPasteManager.getContents(DataFlavor.stringFlavor);
 
             if (clipboardContent != null) {
-                PythonReferenceTranslator translator = new PythonReferenceTranslator();
-                String translatedPath = translator.identifyPathType(clipboardContent);
+                CopiedPathAnalyzer translator = new CopiedPathAnalyzer();
+                PytestPathFormatter.PathType type = translator.identifyPathType(clipboardContent);
+
+                String translatedPath = PytestPathFormatter.convert(clipboardContent, type);
 
                 // Copiar al portapapeles
                 StringSelection stringSelection = new StringSelection(translatedPath);
