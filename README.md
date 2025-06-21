@@ -3,7 +3,6 @@
 [🇪🇸 Español](#español) | [🇺🇸 English](#english)
 
 ![License](https://img.shields.io/badge/license-MIT--NC-blue)
-![Stars](https://img.shields.io/github/stars/dazdwc/CopyReference4Pytest?style=social)
 
 ---
 
