@@ -3,6 +3,8 @@
 [🇪🇸 Español](#español) | [🇺🇸 English](#english)
 
 ![License](https://img.shields.io/badge/license-MIT--NC-blue)
+![Build](https://img.shields.io/github/actions/workflow/status/Dazdwc/CopyReference4Pytest/)
+![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/)
 
 ---
 
@@ -33,6 +35,8 @@ Este plugin hace la conversión automáticamente, ahorrándote tiempo y errores 
 - 📋 **Integración con portapapeles**: Usa el sistema de portapapeles de PyCharm (la función "Copy Reference")
 - 🎯 **Detección inteligente**: Identifica automáticamente si es una ruta de archivo o referencia de clase/función
 - ⚡ **Rápido y simple**: Un solo clic para convertir y copiar
+- 🧪 **Compatible con Pytest desde el menú contextual**
+- ✅ **Convierte y pega directamente en tu terminal de testeo**
 
 ### 🚀 Instalación
 
@@ -129,6 +133,8 @@ This plugin does the conversion automatically, saving you time and manual errors
 - 📋 **Clipboard integration**: Uses PyCharm's clipboard system (the "Copy Reference" action)
 - 🎯 **Smart detection**: Automatically identifies if it's a file path or class/function reference
 - ⚡ **Fast and simple**: One click to convert and copy
+- 🧪 **Context menu integration for Pytest**
+- ✅ **Convert and paste directly into your test terminal**
 
 ### 🚀 Installation
 
