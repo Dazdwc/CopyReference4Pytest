@@ -3,8 +3,7 @@
 [🇪🇸 Español](#español) | [🇺🇸 English](#english)
 
 ![License](https://img.shields.io/badge/license-MIT--NC-blue)
-![Build](https://img.shields.io/github/actions/workflow/status/Dazdwc/CopyReference4Pytest/)
-![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/)
+![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/27721)
 
 ---
 
