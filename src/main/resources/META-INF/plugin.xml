@@ -7,6 +7,8 @@
   <!-- Vendor info: update with your actual details -->
   <vendor email="dani.tu9@gmail.com" url="https://github.com/Dazdwc">Daniel Zafra</vendor>
 
+  <idea-version since-build="222"/>
+
   <!-- Plugin description -->
   <description><![CDATA[
   CopyReference4Pytest is a plugin that adds a context menu action in PyCharm to copy Python references in pytest format.<br><br>

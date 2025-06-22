@@ -13,6 +13,7 @@ repositories {
 
 intellij {
   version.set("2022.2.5")
+  updateSinceUntilBuild.set(false)
   type.set("PY") // Target IDE Platform
   plugins.set(listOf("python"))
 
