@@ -1,4 +1,4 @@
-package io.github.dazdwc.copyreference4pytest;
+package io.github.dazdwc.copyreference4pytest.actions;
 
 import com.intellij.openapi.actionSystem.ActionManager;
 import com.intellij.openapi.actionSystem.AnAction;
@@ -8,11 +8,12 @@ import io.github.dazdwc.copyreference4pytest.utils.PytestPathFormatter;
 
 import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.StringSelection;
+import com.intellij.icons.AllIcons;
 
 public class CopyReference4PytestAction extends AnAction {
 
     public CopyReference4PytestAction() {
-        super("Copy Reference for Pytest");
+        super("Convert to Pytest", "Convert PyCharm reference to pytest path", AllIcons.Actions.DiffWithClipboard);
     }
     @Override
     public void actionPerformed(com.intellij.openapi.actionSystem.AnActionEvent e) {

@@ -29,9 +29,9 @@
   </extensions>
   <actions>
     <action id="CopyReference4Pytest"
-            class="io.github.dazdwc.copyreference4pytest.CopyReference4PytestAction"
-            text="Copiar referencia Pytest"
-            description="Copia la ruta dotted compatible con Pytest"
+            class="io.github.dazdwc.copyreference4pytest.actions.CopyReference4PytestAction"
+            text="Convert to Pytest"
+            description="Convert the copied reference to a Pytest-compatible path"
             popup="true">
       <add-to-group group-id="EditorPopupMenu" anchor="last"/>
       <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
