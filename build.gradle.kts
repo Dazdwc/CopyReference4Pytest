@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dazdwc.github"
-version = "0.0.1-beta"
+version = "1.0.0-beta"
 
 repositories {
   mavenCentral()
