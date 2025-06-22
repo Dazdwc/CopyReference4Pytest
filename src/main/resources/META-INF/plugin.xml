@@ -9,6 +9,8 @@
 
   <!-- Plugin description -->
   <description><![CDATA[
+  CopyReference4Pytest is a plugin that adds a context menu action in PyCharm to copy Python references in pytest format.<br><br>
+
   <strong>🇪🇸 Descripción:</strong><br>
   Este plugin añade una opción al menú contextual de PyCharm para copiar referencias de código Python en formato compatible con <code>pytest</code>, incluyendo funciones y clases.<br>
   Con un solo clic, tendrás la ruta adecuada en tu portapapeles, lista para pegarla y ejecutar tus tests.<br><br>
