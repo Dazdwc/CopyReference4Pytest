@@ -105,6 +105,17 @@ Este proyecto está licenciado bajo una variante de la Licencia MIT que **prohí
 - Ejemplo de input/output esperado
 
 ---
+### 🌟 Dale una estrella al repositorio si te ha sido útil
+
+Hecho con ❤️ para la comunidad Python
+
+### ❤️ ¿Te ha resultado útil?
+
+Si este plugin te ha ahorrado tiempo o te ha servido de ayuda, puedes invitarme a un café ☕:
+
+☕ [Invítame a un café (PayPal)](https://paypal.me/Shaconeverlose)
+
+---
 
 ## 🇺🇸 English
 
@@ -207,3 +218,9 @@ Found a bug? Please open an [issue](https://github.com/dazdwc/CopyReference4Pyte
 ## 🌟 Star this repo if it helps you!
 
 Made with ❤️ for the Python community
+
+## ❤️ Found this useful?
+
+If this plugin saved you time or helped you out, feel free to buy me a coffee ☕:
+
+☕ [buy me a coffee (PayPal)](https://paypal.me/Shaconeverlose)

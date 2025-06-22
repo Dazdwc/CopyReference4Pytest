@@ -9,16 +9,21 @@
 
   <!-- Plugin description -->
   <description><![CDATA[
-  <strong>Descripción en español:</strong><br>
-  Este plugin permite copiar rutas de pruebas en formato dotted-path para ejecutarlas fácilmente con Pytest.<br><br>
+  <strong>🇪🇸 Descripción:</strong><br>
+  Este plugin añade una opción al menú contextual de PyCharm para copiar referencias de código Python en formato compatible con <code>pytest</code>, incluyendo funciones y clases.<br>
+  Con un solo clic, tendrás la ruta adecuada en tu portapapeles, lista para pegarla y ejecutar tus tests.<br><br>
 
-  <strong>Description in English:</strong><br>
-  This plugin allows you to copy dotted-path test references and run them easily with Pytest.<br>
-  <em>Useful for test-driven development workflows.</em>
-  Para más información en español, visita:
-<a href="https://github.com/dazdwc/CopyReference4Pytest/blob/main/README.es.md">README en español</a>
-]]>
-  </description>
+  Ideal para flujos de trabajo con tests automatizados o desarrollo dirigido por pruebas (TDD).<br><br>
+
+  <strong>🇺🇸 Description:</strong><br>
+  This plugin adds a context menu option in PyCharm to copy Python code references in a <code>pytest</code>-compatible format, including functions and classes.<br>
+  With a single click, the properly formatted path is copied to your clipboard — ready to paste and run tests instantly.<br><br>
+
+  Perfect for automated testing workflows or test-driven development (TDD).<br><br>
+
+  👉 <a href="https://github.com/dazdwc/CopyReference4Pytest">Project on GitHub</a><br>
+  ☕ <a href="https://paypal.me/Shaconeverlose">Buy me a coffee</a> if you find this plugin useful!
+]]></description>
 
   <!-- Required platform modules -->
   <depends>com.intellij.modules.platform</depends>
